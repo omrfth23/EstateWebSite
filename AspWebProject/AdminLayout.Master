@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminLayout.master.cs" Inherits="AspWebProject.AdminLayout" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Emlak Sitesi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Navbar Tasarımı */
+    .navbar {
+      background-color: #1565c0; /* Yumuşak mavi arka plan rengi */
+      border-color: transparent; /* Sınır rengi */
+    }
+
+    .navbar-brand {
+      color: #ffffff; /* Beyaz metin rengi */
+    }
+
+    .navbar-nav li a {
+      color: #ffffff; /* Beyaz metin rengi */
+    }
+
+    .navbar-nav li a:hover {
+      background-color: #b3e5fc; /* Yumuşak mavi hover arka plan rengi */
+      color: #ffffff; /* Beyaz metin rengi */
+    }
+
+    .navbar-nav li.active a {
+      background-color: #1565c0; /* Aktif menü öğesi arka plan rengi */
+      color: #ffffff; /* Beyaz metin rengi */
+    }
+
+    .navbar-nav.navbar-right li a {
+      color: #ffffff; /* Beyaz metin rengi */
+      transition: background-color 0.5s ease;
+    }
+
+    .navbar-nav.navbar-right li a:hover {
+      background-color: #b3e5fc; /* Yumuşak mavi hover arka plan rengi */
+      color: #ffffff; /* Beyaz metin rengi */
+    }
+  </style>
+    
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Emlak.net Admin Paneli</a>
+    </div>
+    <ul class="nav navbar-nav">
+      
+      <li><a href="AdminApproveProperty.aspx">Onay Sayfası</a></li>
+      
+      <li><a href="AdminRemove.aspx">Silme İşlemleri</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-in"></span>  Çıkış Yap</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+    </asp:ContentPlaceHolder>
+</div>
+
+</body>
+</html>
+
