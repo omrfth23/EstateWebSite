@@ -31,6 +31,9 @@ This project contains a real estate website developed using ASP.NET Web Forms an
 
    ## ScreenShots
    ![Açıklama](https://github.com/omrfth23/EstateWebSite/blob/main/AspWebProject/Screenshots/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-09%20201016.png?raw=true)
+   
    ![Açıklama](https://github.com/omrfth23/EstateWebSite/blob/main/AspWebProject/Screenshots/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-09%20201039.png?raw=true)
+   
    ![Description](https://github.com/omrfth23/EstateWebSite/blob/main/AspWebProject/Screenshots/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-09%20201111.png?raw=true)
+   
    ![Description](https://github.com/omrfth23/EstateWebSite/blob/main/AspWebProject/Screenshots/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202024-01-09%20201141.png?raw=true)
